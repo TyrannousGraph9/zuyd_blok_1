@@ -1,0 +1,8 @@
+# gitignore template voor python
+
+
+# ignore visual studio code settings, dit verschilt per persoon die deze gebruikt.
+
+.vscode
+
+
