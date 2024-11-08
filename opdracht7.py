@@ -14,10 +14,13 @@ import math
 
 def analyseer_worpen(dobbelcombos):
 
-    dobbelwaardes = sum(dobbelcombos)
+    print(type(dobbelcombos))
 
-    gemiddelde_waarde = dobbelwaardes / len(dobbelcombos)
+    print(type(sum(dobbelcombos)))
 
+    print(type(len(dobbelcombos)))
+    gemiddelde_waarde = sum(dobbelcombos) / len(dobbelcombos)
+    
     print(gemiddelde_waarde)
 
     
@@ -36,7 +39,7 @@ def gooi_meerdere_dobbelstenen(aantal):
 gooi_meerdere_dobbelstenen(int(input("Hoevaak wil je gooien?")))
 
 
-def mathopdracht():
+def math_opdracht():
     getal = input("Voer hier een nummer in.")
     
     getal = getal.replace("," , ".")
@@ -49,4 +52,4 @@ def mathopdracht():
 
 
 
-# mathopdracht()
+math_opdracht()
